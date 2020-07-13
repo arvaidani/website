@@ -36,10 +36,10 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Team</a>
-					</li>
+					</li>-->
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
-          </li> -->
+          </li>
         </ul>
       </div>
     </div>
@@ -52,7 +52,8 @@
 
         <h2 class="display-4">Our success is in deploying technology the right way.</h2>
         <br>
-        <p>Onboarding automated activites in sales and marketing, and quick adaption of modern operational tools have become essential in all industries recently. The restuarant segment has still a lot to discover in these areas, which means tremendous opportunities for professionals as well as for customers. </p>
+        <p>Onboarding automated activites in sales and marketing, and quick adaption of modern operational tools have become essential in all industries recently. The restuarant segment has still a lot to discover in these areas, which means
+          tremendous opportunities for professionals as well as for customers. </p>
         <p>Yet, digital as a part of any business strategy, it must solve a problem and yield returns — this can only happen with thoughtful application.</p>
         <p>For technology to be effective in customer engagement, it must deliver on both sides of the equation — enhancing business objectives and customer satisfaction.</p>
       </div>
@@ -78,53 +79,147 @@
     </div>
   </div>
 
+  <!--Contact form -->
+  <!--Contact form -->
+  <!--Section: Contact v.2-->
+  <section class="mb-4" id="contact-form">
+
+      <!--Section heading-->
+      <h2 class="h1-responsive text-center display-4">Don't hesitate to contact me!</h2>
+      <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="name" name="name" class="form-control">
+                              <label for="name" class="">Your name</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="email" name="email" class="form-control">
+                              <label for="email" class="">Your email</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="md-form mb-0">
+                              <input type="text" id="subject" name="subject" class="form-control">
+                              <label for="subject" class="">Subject</label>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-12">
+
+                          <div class="md-form">
+                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                              <label for="message">Your message</label>
+                          </div>
+
+                      </div>
+                  </div>
+                  <!--Grid row-->
+
+              </form>
+
+              <div class="text-center text-md-left" style="padding-left: 20px;">
+                  <a class="btn btn-primary" onclick="validateForm();">Send</a>
+              </div>
+              <div class="status"></div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                  <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                      <p>Helsinki</p>
+                  </li>
+
+                  <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                      <p>+358 44 973 7795</p>
+                  </li>
+
+                  <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                      <p>email</p>
+                  </li>
+              </ul>
+          </div>
+          <!--Grid column-->
+
+      </div>
+
+  </section>
+  <!--Section: Contact v.2-->
 
   <!--- Connect -->
-	<div class="container-fluid padding">
-		<div class="row text-center padding">
-			<div class="col-12">
-				<h2>Connect</h2>
-			</div>
-			<div class="col-12 social paddign">
-				<a href="https://www.facebook.com/futureskillsbydaniel" target="_blank"><i class="fab fa-facebook"></i></a>
-				<a href="https://www.instagram.com/danielarvai_/" target="_blank"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.linkedin.com/in/danielarvai/" target="_blank"><i class="fab fa-linkedin"></i></a>
-			</div>
-		</div>
-	</div>
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-12">
+        <h2 class="display-4">Connect</h2>
+      </div>
+      <div class="col-12 social paddign">
+        <a href="https://www.facebook.com/futureskillsbydaniel" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/danielarvai_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/danielarvai/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
 
   <!--- Footer -->
-	<footer>
-		<div class="container-fluid paddign">
-			<div class="row text-center">
-				<div class="col-md-4">
-					<hr class="light">
-					<h5>Hours</h5>
-					<hr class="light">
-					<p>Monday: 9:00 - 17:00</p>
-					<p>Saturday - Sunday: -</p>
-				</div>
-				<div class="col-md-4">
-					<img src="img/White.svg" alt="">
-					<hr class="light">
-					<p>Mobile: +358 44 973 7795</p>
-					<p>Email: </p>
-					<p>Helsinki</p>
-				</div>
-				<div class="col-md-4">
-					<hr class="light">
-					<h5>Sign up!</h5>
-					<hr class="light">
+  <footer>
+    <div class="container-fluid paddign">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Hours</h5>
+          <hr class="light">
+          <p>Monday: 9:00 - 17:00</p>
+          <p>Saturday - Sunday: -</p>
+        </div>
+        <div class="col-md-4">
+          <img src="img/White.svg" alt="">
+          <hr class="light">
+          <p>Mobile: +358 44 973 7795</p>
+          <p>Email: </p>
+          <p>Helsinki</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Sign up!</h5>
+          <hr class="light">
 
-				</div>
-				<div class="col-12">
-					<hr class="light-100">
-					<h5>&copy; danielarvai.com</h5>
+        </div>
+        <div class="col-12">
+          <hr class="light-100">
+          <h5>&copy; danielarvai.com</h5>
 
-				</div>
-			</div>
-		</div>
-	</footer>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
