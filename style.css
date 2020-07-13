@@ -193,13 +193,13 @@ hr.light-100 {
     top: 40%;
   }
   .carousel-caption h1 {
-    font-size: 250%;
+    font-size: 150%;
   }
   .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 80%;
   }
   .carousel-caption .btn {
-    font-size: 90%;
+    font-size: 60%;
     padding: 4px 8px;
   }
   .carousel-indicators {
